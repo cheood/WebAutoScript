@@ -8,7 +8,7 @@ class BasePage(object):
     """对象库层-基类"""
 
     def __init__(self):
-        self.driver = DriverUtil.get_driver()  # 获取浏览器对象
+        self.driver = DriverUtil.get_driver()  # 获取浏览器对象 本地的修改
 
     def find_element_func(self, location):
         """元素定位方法"""
